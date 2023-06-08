@@ -1,0 +1,221 @@
+:root {
+  --color-primary-brand: #4d5ae5;
+  --color-pressed-state: #404bbf;
+  --color-dark-navy-blue: #2e2f42;
+  --color-green: #31d0aa;
+  --color-slate: #434455;
+  --color-light-slate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-light-cloud: #f4f4fd;
+  --color-modal-overlay: rgba(46, 47, 66, 0.4);
+  --color-hero-background: rgba(46, 47, 66, 0.7);
+  --color-white: #ffffff;
+  --color-modal-background: #fcfcfc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-slate);
+  background-color: var(--color-white);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.subtitle,
+.prtf-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-dark-navy-blue);
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+
+/** ----------------HEADER---------------*/
+
+.header {
+}
+.header-nav {
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--color-primary-brand);
+  text-transform: uppercase;
+}
+
+.header-logo-span {
+  color: var(--color-dark-navy-blue);
+}
+
+.logo {
+}
+.header-menu {
+}
+
+.header-menu-item {
+}
+.header-menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-dark-navy-blue);
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: var(--color-pressed-state);
+}
+
+.contact {
+  font-style: normal;
+}
+.contact-list {
+}
+.contact-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--color-pressed-state);
+}
+
+/** ----------------HERO---------------*/
+
+.hero {
+  background-color: var(--color-dark-navy-blue);
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+  cursor: pointer;
+  background-color: var(--color-primary-brand);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--color-pressed-state);
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-dark-navy-blue);
+}
+
+/** ----------------ADVANTAGES эдвАнтеджес---------------*/
+
+.adv {
+}
+.adv-title {
+}
+
+.adv-list {
+}
+.adv-subtitle {
+}
+.adv-text {
+}
+
+/** ----------------PRODUCTS прОдактс---------------*/
+
+.products {
+}
+.products-title {
+}
+.products-list {
+}
+.products-item {
+}
+
+/** ----------------TEAM---------------*/
+
+.team {
+  background-color: var(--color-light-cloud);
+}
+.team-title {
+}
+.team-list {
+}
+.team-item {
+  background-color: var(--color-white);
+}
+.team-subtitle {
+}
+.team-text {
+}
+
+/** ----------------FOOTER---------------*/
+
+.footer {
+  background-color: var(--color-dark-navy-blue);
+}
+.footer-logo {
+}
+
+.footer-logo-span {
+  color: var(--color-light-cloud);
+}
+
+.footer-text {
+  color: var(--color-light-cloud);
+}
+
+/** ----------------PORTFOLIO.html---------------*/
+
+.prtf-btn {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-primary-brand);
+  background-color: var(--color-light-cloud);
+  cursor: pointer;
+}
+
+.prtf-btn:hover,
+.prtf-btn:focus {
+  color: var(--color-white);
+  background-color: var(--color-pressed-state);
+}
